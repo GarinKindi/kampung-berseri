@@ -1,0 +1,32 @@
+tanpa rubah desain ui,dan apapun yagn sudah berjalnan hanya bersipat memperbaiki dan mengoptilamakan saja
+
+API URL
+https://pjcqrihicwcppwtcbuft.supabase.co/rest/v1/
+
+
+API Key
+sb_publishable_Kezz2uRI8r3qiC6HnfzkjQ_biqK41Vs.
+
+
+
+cd /d E:\kampung-berseri
+
+npm run dev
+
+
+Klik "Add user", masukkan email dan password.
+
+Email: admin@kampungberseri.com
+
+Password: admin123 (atau sesuai keinginan)
+
+
+perbaiki juga di dasbord ,peket wisata di admin panel agar lebih user frendly dan mudah di oprasikan serta untuk foto tetap responsif buatkan full kodenya
+
+cmd pc kantor 
+
+cd /d "E:\WEB Kampung Berseri Della\kampung-berseri\kampung-berseri"
+
+powershell
+
+cd "E:\WEB Kampung Berseri Della\kampung-berseri\kampung-berseri"
