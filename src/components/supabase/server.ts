@@ -12,11 +12,12 @@ export async function createClient() {
         getAll() {
           return cookieStore.getAll();
         },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) =>
-            cookieStore.set(name, value, options)
-          );
-        },
+        // Kode BARU yang benar:
+setAll(cookiesToSet: { name: string; value: string; options?: any }[]) {
+  cookiesToSet.forEach(({ name, value, options }) =>
+    cookieStore.set(name, value, options)
+  );
+},
       },
     }
   );
